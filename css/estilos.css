@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Montserrat:wght@200;400;900&family=Open+Sans&family=Poppins:wght@200;400;600;900&family=Roboto:ital,wght@0,400;0,700;1,100;1,300;1,900&display=swap');
+
+
+:root{
+    --color: red;
+    --colorHeader: rgb(150, 144, 144);
+    --backgroundbotones: rgb(3, 3, 105);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+/* -----------------------------------------------------------------------------------------
+                               seccion 1
+    ----------------------------------------------------------------------------------------- */
+
+header{
+    width: 98%;
+}
+header img{
+    height: 200px;
+    width: 100%;
+
+}
+.cabecero{
+    width: 100%;
+    height: 400px;
+   background-color: var(--colorHeader);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.cabecero div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    width: 100px;
+    height: 160px;
+}
+a{
+    color:black;
+    font-weight: 400;
+}
+li{
+    margin-top: 10px;
+}
+nav li:hover{
+    border-bottom: 2px solid red;
+    
+}
+.contenedor-img img{
+    width: 100%;
+    margin-top: 5px;
+    height: 400px;
+}
+
+/* -----------------------------------------------------------------------------------------
+                               seccion 2
+    ----------------------------------------------------------------------------------------- */
+
+.section-1{
+    width: 98%;
+    /* background-color: aqua; */
+    height: 700px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.coli{
+    color:red;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+  /* -----------------------------------------------------------------------------------------
+                               seccion 3
+    ----------------------------------------------------------------------------------------- */
+  
+h2{
+    background-color: var(--backgroundbotones);
+    color: #ffffff;
+    width: 90%;
+    margin-top:10px;
+    margin-bottom: 10px;
+    height:  40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 500;
+    border-bottom: 2px solid black ;
+    box-shadow: 5px 5px 10px 5px black ;
+}
+h2::before{
+    content: "* " " ";
+}
+
+.section-2{
+    height: 800px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.section-2 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 li{
+    width: 80%;
+    height: 40px;
+    background-color: var(--backgroundbotones);
+    margin: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 5px 5px 10px 5px black ;
+    
+}
+.section-2 li:hover{
+    background-color: rgb(0, 110, 255);
+}
+.section-2 li a{
+  
+   color:white;
+   text-decoration: none;
+}
+
+
+.conten-img img{
+    
+    width: 95%;
+    height: 250px;
+    opacity: 0.8;
+}
+.conten-img img:hover{
+    opacity: 1;
+    transition: 400ms;
+} 
+.conten-img {
+  margin-top: 30px;
+ 
+}
+/* -----------------------------------------------------------------------------------------
+                               seccion 3
+    ----------------------------------------------------------------------------------------- */
+
+
+.seccion-3{
+    height: 550px;
+    width: 340px;
+}
+
+.seccion-3 p{
+    font-weight: bold;
+}
+.seccion-3-div1{
+    height: 400px;
+    width: 340px;
+}
+/* -----------------------------------------------------------------------------------------
+                              seccion 4
+    ----------------------------------------------------------------------------------------- */
+
+
+
+.seccion-4{
+ height: 350px;
+ padding-bottom: 20px ;
+}
+.seccion-4 iframe {
+ width: 300px;
+ height: 200px;
+}
+
+/* -----------------------------------------------------------------------------------------
+                               pie de pagina
+    ----------------------------------------------------------------------------------------- */
+
+
+.piedepag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg.jpg);
+    height: 400px;
+    width: 100%;
+}
+
+.piedepag img{
+    width: 120px;
+    height: 200px;
+}
+
+.copy{
+    margin-top: 20px;
+    color: white;
+    line-height: 5px;
+}
+/* -----------------------------------------------------------------------------------------
+                               Media queris
+    ----------------------------------------------------------------------------------------- */
+
+@media(min-width:800px){
+  /* -----------------------------------------------------------------------------------------
+                               seccion 1
+    ----------------------------------------------------------------------------------------- */
+
+    header img{
+        height: auto;
+    }
+    .cabecero{
+        height: 270px;
+       flex-direction: row;
+       
+    }
+    
+.cabecero img{
+    width: 100%;
+    height: 160px;
+}
+
+    nav ul{
+        display: flex;
+    }
+    nav li{
+        margin-left:19px ;
+        
+    }
+   
+    
+        /* -----------------------------------------------------------------------------------------
+                               seccion 2
+    ----------------------------------------------------------------------------------------- */
+
+    .section-1{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-1 div{
+        width: 80%;
+    }
+    /* -----------------------------------------------------------------------------------------
+                               seccion 3
+    ----------------------------------------------------------------------------------------- */
+  
+h2{
+    width: 39%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section-2{
+    width: 98%;
+    height: 550px;
+    
+}
+.section-2 ul{
+    width: 98%;
+    height: 60px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.section-2 li{
+  width: 33.3%;
+    
+}
+  /* -----------------------------------------------------------------------------------------
+                               seccion galeria
+    ----------------------------------------------------------------------------------------- */
+.conten-img img{
+    width: 45%;
+    height: 400px;
+}
+.conten-img{
+ margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+}
+
+
+
+/* -----------------------------------------------------------------------------------------
+                               seccion 3
+    ----------------------------------------------------------------------------------------- */
+
+
+.seccion-3{
+    height: 600px;
+    width: 98%;
+    background: linear-gradient(#ffffff,#888888);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccion-3 p{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.seccion-3-div1{
+    height: 400px;
+    width: 740px;
+  
+}
+
+.seccion-3-div1 iframe{
+    width: 740px;
+    height: 350px;
+   
+}
+/* -----------------------------------------------------------------------------------------
+                              seccion 4
+    ----------------------------------------------------------------------------------------- */
+
+
+.seccion-4{
+    height: 500px;
+    width: 98%;
+    background: #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.seccion-4 iframe {
+    margin-top: 30px;
+    width: 600px;
+    height: 350px;
+   }
+
+}

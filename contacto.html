@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos_contacto.css">
+    <title>Conctaco</title>
+</head>
+<body>
+    <header class="cabecero">
+        <div>
+            <img src="img/logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="productos.html">PRODUCTOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+     <form action="" class="formulario">
+        <label for="nombreyapelido">Nombres Y Apellidos <span>*</span></label>
+        <input class="unput1" type="text" id="nombreyapelido" required >
+
+        <label for="Correoelectronico">Correo Electronico <span>*</span></label>
+        <input class="unput1" type="email" id="Correoelectronico" required placeholder="   email@dominio.com">
+
+        <label for="tel">Telefono <span>*</span></label >
+        <input class="unput1" type="number" id="tel" required placeholder="   (xxx xxx xx xx)">
+
+        <label for="mens">Mensaje</label>
+        <textarea name="" id="mens" class="area-mensaje"></textarea >
+     <div class="contacoform">
+        <p>Selecciona como quieres ser contactado</p>
+        
+        <label for="radio-email"><input checked name="contacto" type="radio" id="radio-email" value="email">Email</label>
+        
+
+        <label for="radio-mensaje"> <input name="contacto" type="radio" id="radio-mensaje">Mensaje Whatsapp</label>
+       
+
+        <label for="radio-Telefono"><input name="contacto" type="radio" id="radio-Telefono">Telefono</label>
+
+       <div class="opciones">
+        <p>¿en cual horario quiere ser atendido?</p>
+        <select name="" id="">
+            <option value="">Mañana</option>
+            <option value="">Tarde</option>
+            <option value="">Noche</option>
+        </select>
+       </div>
+        
+
+        <label  for=""><input class="ultimo" type="checkbox" checked>Le gustaria resivir informacion de nuestra barberia alura?</label>
+    </div>
+
+
+        <input class="boton-formulario" type="submit" value="Enviar Formulario">
+     </form>
+
+     <table class="tabla">
+
+        <thead>
+            <tr>
+                <th>Dias</th>
+                <th>Horarios</th>
+            </tr>
+        </thead>
+       
+
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>8hr-20hr</td>
+            </tr>
+    
+            <tr>
+                <td>Miercoles</td>
+                <td>8hr-20hr</td>
+            </tr>
+    
+            <tr>
+                <td>Viernes</td>
+                <td>8hr-20hr</td>
+            </tr>
+        </tbody>
+
+       
+     </table>
+    </main>
+    <footer class="piedepag">
+        <img src="img/logo-blanco.png" alt="">
+        <p class="copy">&copy; Copyright Barbera Alura- 2022</p>
+        <p class="copy">realizado por ©Néstor Martínez</p>
+        </footer>
+</body>
+</html>
