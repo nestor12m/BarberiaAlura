@@ -106,8 +106,8 @@ h2{
     background-color: var(--backgroundbotones);
     color: #ffffff;
     width: 90%;
-    margin-top:10px;
-    margin-bottom: 10px;
+    margin-top:20px;
+    margin-bottom: 30px;
     height:  40px;
     display: flex;
     justify-content: center;
@@ -122,7 +122,7 @@ h2::before{
 }
 
 .section-2{
-    height: 800px;
+    height: 750px;
     text-align: center;
     background-color: #ffffff;
 }
@@ -262,10 +262,7 @@ h2::before{
 
     .section-1{
         height: 400px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
     .section-1 div{
         width: 80%;
@@ -277,12 +274,9 @@ h2::before{
 h2{
     width: 39%;
     height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 22px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    
 }
 .section-2{
     width: 98%;
